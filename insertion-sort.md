@@ -16,9 +16,7 @@
 ### Big-O Gösterimi
 
 - **En kötü durum zaman karmaşıklığı:** O(n^2)
-- **Ortalama durum:** Aradığımız sayının ortada olması
-
-**Örnek:** 18 sayısı sıralanmış dizide şu konumdadır: [2, 6, 16, 18, 22, 27]. Bu durumda, 18 sayısı dizinin ortasında yer alır.
+- ** Aradığımız sayının ortada olmasında dolayı "Average case" durumundadır.
 
 ## Selection Sort
 
@@ -31,9 +29,4 @@
 3. **Adım 2:** En küçük eleman 3, ikinci eleman yerinde kalır: [2, 3, 5, 8, 7, 9, 4, 15, 6]
 4. **Adım 3:** En küçük eleman 4, üçüncü elemanla yer değiştirir: [2, 3, 4, 8, 7, 9, 5, 15, 6]
 5. **Adım 4:** En küçük eleman 5, dördüncü elemanla yer değiştirir: [2, 3, 4, 5, 7, 9, 8, 15, 6]
-
-### Big-O Gösterimi
-
-- **En kötü durum zaman karmaşıklığı:** O(n^2)
-- **Ortalama durum:** Aradığımız elemanın konumuna bağlı olarak değişir.
 
