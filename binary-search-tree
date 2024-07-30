@@ -1,0 +1,43 @@
+## İkili Arama Ağacı (Binary Search Tree)
+
+1. **Kök Oluşturulur**
+   - 7 kök olarak seçilir.
+
+2. **5 Eklenir**
+   - 5, 7'den küçük olduğu için 7'nin soluna eklenir.
+
+3. **1 Eklenir**
+   - 1, 7'den ve 5'ten küçük olduğu için 5'in soluna eklenir.
+
+4. **8 Eklenir**
+   - 8, 7'den büyük olduğu için 7'nin sağına eklenir.
+
+5. **3 Eklenir**
+   - 3, 7'den küçük, 5'ten küçük ama 1'den büyük olduğu için 1'in sağına eklenir.
+
+6. **6 Eklenir**
+   - 6, 7'den küçük, 5'ten büyük olduğu için 5'in sağına eklenir.
+
+7. **0 Eklenir**
+   - 0, 7'den, 5'ten ve 1'den küçük olduğu için 1'in soluna eklenir.
+
+8. **9 Eklenir**
+   - 9, 7'den ve 8'den büyük olduğu için 8'in sağına eklenir.
+
+9. **4 Eklenir**
+   - 4, 7'den küçük, 5'ten küçük ama 3'ten büyük olduğu için 3'ün sağına eklenir.
+
+10. **2 Eklenir**
+    - 2, 7'den küçük, 5'ten küçük, 1'den büyük ve 3'ten küçük olduğu için 1'in sağına, 3'ün soluna eklenir.
+
+## Ağaç Yapısı
+
+       7
+      / \
+     5   8
+    / \   \
+   1   6   9
+  / \
+ 0   3
+    / \
+   2   4
